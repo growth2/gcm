@@ -29,6 +29,9 @@
         <developerConnection>scm:git:git@github.com:google/gcm.git</developerConnection>
         <url>git@github.com:google/gcm.git</url>
     </scm>
+    <build>
+    	<sourceDirectory>src</sourceDirectory>
+    </build>
     <dependencies>
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>

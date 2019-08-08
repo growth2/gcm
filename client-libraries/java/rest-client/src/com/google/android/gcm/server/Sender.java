@@ -80,7 +80,7 @@ public class Sender {
   /**
    * Initial delay before first retry, without jitter.
    */
-  protected static final int BACKOFF_INITIAL_DELAY = 1000;
+  protected static final int BACKOFF_INITIAL_DELAY = 10000;
   /**
    * Maximum delay before a retry.
    */
